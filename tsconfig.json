@@ -1,11 +1,8 @@
 {
     "compilerOptions": {
-        "allowJs": true,
-        "checkJs": true,
         "outDir": "build",
-        "target": "ESNext",
-        "noEmit": true,
+        "target": "ES6",
     },
-    "include": ["src/**/*"],
-    "exclude": ["node_modules", "dist"]
+    "include": ["src/*.ts"],
+    //"exclude": ["node_modules", "dist"]
 }
